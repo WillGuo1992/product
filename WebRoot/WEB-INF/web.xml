@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>checkImgServlet</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.CheckImgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>activeServlet</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.ActiveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>myAccount</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.MyAccount</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>modifyUserServlet</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.ModifyUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>showProductByPageServlet</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.ShowProductByPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>findProductBySearch</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.FindProductBySearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>findProductById</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.FindProductByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>addCartServlet</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.AddCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteCart</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.DeleteCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>createOrder</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.CreateOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>findOrdersByUser</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.FindOrdersByUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>findOrderByOrderId</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.FindOrderByOrderIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteOrderByOrderId</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.DeleteOrderByOrderIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>onLinePay</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.OnLinePayServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>callbackServlet</servlet-name>
+    <servlet-class>cn.buaa.nlsde.web.servlet.CallbackServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>checkImgServlet</servlet-name>
+    <url-pattern>/checkImgServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/registerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>activeServlet</servlet-name>
+    <url-pattern>/activeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>myAccount</servlet-name>
+    <url-pattern>/myAccount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>modifyUserServlet</servlet-name>
+    <url-pattern>/modifyUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showProductByPageServlet</servlet-name>
+    <url-pattern>/showProductByPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findProductBySearch</servlet-name>
+    <url-pattern>/findProductBySearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findProductById</servlet-name>
+    <url-pattern>/findProductById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCartServlet</servlet-name>
+    <url-pattern>/addCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteCart</servlet-name>
+    <url-pattern>/deleteCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>createOrder</servlet-name>
+    <url-pattern>/createOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findOrdersByUser</servlet-name>
+    <url-pattern>/findOrdersByUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>findOrderByOrderId</servlet-name>
+    <url-pattern>/findOrderByOrderId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteOrderByOrderId</servlet-name>
+    <url-pattern>/deleteOrderByOrderId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>onLinePay</servlet-name>
+    <url-pattern>/onLinePay</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>callbackServlet</servlet-name>
+    <url-pattern>/callbackServlet</url-pattern>
+  </servlet-mapping>
+
+
+	<filter>
+		<filter-name>EncodingFilter</filter-name>
+		<filter-class>cn.buaa.nlsde.web.filter.EncodingFilter</filter-class>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>EncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
